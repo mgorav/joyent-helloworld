@@ -25,7 +25,7 @@ Option 3. Containers hosting hardware virtual machines running Windows, FreeBSD,
 
 For more details & comparision container hosted on different cloud provider refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
 
-As can be concluded from above, Option 1 & Option 2 are the most high performtant containerization
+As can be concluded from above, Option 1 & Option 2 are the most high performtant containerization provided by Joyent.
 
 
 ![Container Piolot](ContainerPilot.jpg)
