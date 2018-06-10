@@ -12,6 +12,8 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 
 ## Joyent Container
 
+A Joyent's recomended high performance containers can be depicted as shown below:
+
 ![Container](JoyentContainer.png)
 
 
