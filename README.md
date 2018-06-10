@@ -29,6 +29,9 @@ The application is divided into 4 parts:
 3. `docker-compose up -d`
 4. `open http://localhost`
 
+![HelloWorld](hello-world.png)
+
+
 The fun part now, the application can be scaled simply as shown below:
 
 `docker-compose scale hello=10 world=6`
