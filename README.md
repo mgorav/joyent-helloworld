@@ -12,7 +12,7 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 
 ## Joyent Container
 
-VM vs Container are shown below:
+Container Vs VM are shown below:
 
 ![Container](JoyentContainer.png)
 
