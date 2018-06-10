@@ -12,18 +12,20 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 
 ## Joyent Container
 
-A Joyent's recomended high performance containers can be depicted as shown below:
+VM vs Container are shown below:
 
 ![Container](JoyentContainer.png)
 
 
 Triton containers can be categorized into following:
 
-1. Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.
-2. Docker containers running Docker images.
-3. Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages, but they offer compatibility for workloads that can't be fully containerized.
+Option 1. Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.
+Option 2. Docker containers running Docker images.
+Option 3. Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages, but they offer compatibility for workloads that can't be fully containerized.
 
 For more details & comparision container hosted on different cloud provider refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
+
+As can be concluded from above, Option 1 & Option 2 are the most high performtant containerization
 
 
 ![Container Piolot](ContainerPilot.jpg)
