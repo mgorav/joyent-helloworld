@@ -10,6 +10,8 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 3. defining the dependencies of the current service
 4. the management of the service workflow by calling configuration script for preStart / onChange / postStop actions
 
+![Container Piolot](ContainerPilot.jpg)
+
 ## Joyent Container
 
 Before going in the direction of Joyent containerization, let refresh the differences between container vs vm as shown below :
@@ -29,9 +31,7 @@ For more details & comparision container hosted on different cloud provider refe
 
 As can be concluded from above, Option 1 & Option 2 are the most high performtant containerization provided by Joyent.
 
-
-![Container Piolot](ContainerPilot.jpg)
-
+## Application Architecture
 The application is divided into 4 parts:
 
 1. **nginx** - nginx server rendering static assets
