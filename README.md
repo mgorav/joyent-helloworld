@@ -12,6 +12,9 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 
 ## Joyent Container
 
+![Container](JoyentContainer.png)
+
+
 Triton containers can be categorized into following:
 
 1. Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.
