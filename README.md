@@ -38,10 +38,10 @@ As can be concluded from above, Option 1 & Option 2 are the most high performtan
 ## Application Architecture
 The application is divided into 4 parts:
 
-1. **nginx** - nginx server rendering static assets
-2. **consul** - service registry & catalog used to keep track of registered services
-3. **hello** - Node.js service responding with the word "Hello"
-4. **world** - Node.js service responding with the word "World"
+1. _**nginx**_ - nginx server rendering static assets
+2. _**consul**_ - service registry & catalog used to keep track of registered services
+3. _**hello**_ - Node.js service responding with the word "Hello"
+4. _**world**_ - Node.js service responding with the word "World"
 
 Following pictures shows complete architecture diagram:
 
