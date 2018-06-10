@@ -14,10 +14,10 @@ So what is ContainerPilot? **ContainerPilot** will be added to each of the appli
 
 The application is divided into 4 parts:
 
-1. nginx - nginx server rendering static assets
-2. consul - service registry & catalog used to keep track of registered services
-3. hello - Node.js service responding with the word "Hello"
-4. world - Node.js service responding with the word "World"
+1. **nginx** - nginx server rendering static assets
+2. **consul** - service registry & catalog used to keep track of registered services
+3. **hello** - Node.js service responding with the word "Hello"
+4. **world** - Node.js service responding with the word "World"
 
 
 ![Joyent Arch Diagram](joyent-arch-diagram.jpg)
