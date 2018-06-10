@@ -12,7 +12,7 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 
 ## Joyent Container
 
-Container Vs VM are shown below:
+Before going in the direction of Joyent containerization, let refresh the differences between container vs vm as shown below :
 
 ![Container](JoyentContainer.png)
 
