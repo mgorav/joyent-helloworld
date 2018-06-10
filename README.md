@@ -10,6 +10,17 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 3. defining the dependencies of the current service
 4. the management of the service workflow by calling configuration script for preStart / onChange / postStop actions
 
+## Joyent Container
+
+Triton containers come in three types:
+
+1. Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.
+2. Docker containers running your favorite Docker images.
+3. Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages as our other offerings, but they offer compatibility for workloads that can't be fully containerized.
+
+For more details & comparision refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
+
+
 ![Container Piolot](ContainerPilot.jpg)
 
 The application is divided into 4 parts:
