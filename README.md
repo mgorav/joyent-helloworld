@@ -1,10 +1,5 @@
 # Joyent's ContainerPilot Pattern Example Using Node.JS service
 
-1. `git clone git@github.com:joyent-helloworld.git`
-2. `cd hello-world`
-3. `docker-compose up -d`
-4. `open http://localhost`
-
 ## Overview
 
 Autopilot pattern moves all the orchestration responsibilities to the application itself rather than relying on an external orchestrator. So what is orachestration? Orchestration is the automation of the operations of an application. Most application require operational tasks like connecting them to related components (joyent-helloworld), and some applications require special attention as they start up or shut down to be sure they bootstrap correctly or persist their data.
@@ -26,3 +21,10 @@ The application is divided into 4 parts:
 
 
 ![Joyent Arch Diagram](joyent-arch-diagram.jpg)
+
+## Instructions to run
+
+1. `git clone git@github.com:joyent-helloworld.git`
+2. `cd hello-world`
+3. `docker-compose up -d`
+4. `open http://localhost`
