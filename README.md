@@ -20,7 +20,9 @@ Before going in the direction of Joyent containerization, let refresh the differ
 Joyent containers can be categorized into following:
 
 **Option 1.** Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.
+
 **Option 2.** Docker containers running Docker images.
+
 **Option 3.** Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages, but they offer compatibility for workloads that can't be fully containerized.
 
 For more details & comparision container hosted on different cloud provider refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
