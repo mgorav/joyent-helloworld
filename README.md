@@ -18,7 +18,7 @@ Triton containers come in three types:
 2. Docker containers running your favorite Docker images.
 3. Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages as our other offerings, but they offer compatibility for workloads that can't be fully containerized.
 
-For more details & comparision refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
+For more details & comparision container hosted on different cloud provider refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
 
 
 ![Container Piolot](ContainerPilot.jpg)
