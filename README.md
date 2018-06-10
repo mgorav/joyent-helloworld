@@ -2,6 +2,8 @@
 
 ## Overview
 
+This project will explore how to build [12 factor app](https://12factor.net) using Container Pilot pattern i.e. seamless service registry, discovery etc etc
+
 Autopilot pattern moves all the orchestration responsibilities to the application itself rather than relying on an external orchestrator. **So what is orachestration? Orchestration** is the automation of the operations of an application. Most application require operational tasks like connecting them to related components (joyent-helloworld), and some applications require special attention as they start up or shut down to be sure they bootstrap correctly or persist their data.
 
 **So what is ContainerPilot? ContainerPilot** is added to application’s service. It communicates with the application’s service on one hand and with Consul on the other hand. It takes following key responsibilities:
