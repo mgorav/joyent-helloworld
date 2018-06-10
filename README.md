@@ -31,6 +31,13 @@ Joyent containers can be categorized into following:
 
 **Option 3.** _Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages, but they offer compatibility for workloads that can't be fully containerized._
 
+| Instance Type                         | EC2 t2.micro           | Triton G4 standard 128M  |
+| ------------------------------------- |:----------------------:| ------------------------:|
+| Cloud Provider                        | AWS                    |  Joyent                  |
+| Memory                                | 1GB                    |   128 M                  |
+| CPU shares/cores (with hyperthreading)| 0.1                    |   0.12                   |
+
+
 For more details & comparision container hosted on different cloud provider refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
 
 As can be concluded from above, Option 1 & Option 2 are the most high performtant containerization provided by Joyent.
