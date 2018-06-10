@@ -61,5 +61,5 @@ The fun part now, this application can be scaled by issuing following command:
 
 `docker-compose scale hello=10 world=6`
 
-## Conclusion
+## Conclusions
 Container pilot is an awsome patten to address loads operation concerns to name the few, rolling restart, graceful shutdown etc implemented as infrastructure as code, handled from within application, rather than some god father orchestrator somewhere - **welcome to the elegant world of "devops", "full stack developer", ...**
