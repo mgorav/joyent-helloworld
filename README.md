@@ -7,6 +7,14 @@
 
 ## Overview
 
+Autopilot pattern moves all the orchestration responsibilities to the application itself rather than relying on an external orchestrator. ContainerPilot will be added to each of the application’s service. It communicates with the application’s service on one side and with Consul on the other side. It takes following responsibilities:
+1. the service registration within Consul
+2. defining how the health check of the service needs to be done
+3. defining the dependencies of the current service
+4. the management of the service workflow by calling configuration script for preStart / onChange / postStop actions
+
+![Container Piolot](ContainerPilot.jpg)
+
 The application is divided into 4 parts:
 
 1. nginx - nginx server rendering static assets
