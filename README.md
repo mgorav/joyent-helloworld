@@ -10,6 +10,8 @@ Autopilot pattern moves all the orchestration responsibilities to the applicatio
 3. defining the dependencies of the current service
 4. the management of the service workflow by calling configuration script for preStart / onChange / postStop actions
 
+Following picture picotorially depicts Container Pilot pattern:
+
 ![Container Piolot](ContainerPilot.jpg)
 
 ## Joyent Containers
