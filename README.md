@@ -19,6 +19,10 @@ The application is divided into 4 parts:
 3. **hello** - Node.js service responding with the word "Hello"
 4. **world** - Node.js service responding with the word "World"
 
+Following pictures shows complete architecture diagram:
+
+![HelloWorld](hello-world.png)
+
 
 ![Joyent Arch Diagram](joyent-arch-diagram.jpg)
 
@@ -29,8 +33,7 @@ The application is divided into 4 parts:
 3. `docker-compose up -d`
 4. `open http://localhost`
 
-![HelloWorld](hello-world.png)
-
+![HelloWorld](HelloWorld.png)
 
 The fun part now, the application can be scaled simply as shown below:
 
