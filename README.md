@@ -28,3 +28,10 @@ The application is divided into 4 parts:
 2. `cd hello-world`
 3. `docker-compose up -d`
 4. `open http://localhost`
+
+The fun part now, the application can be scaled simply as shown below:
+
+`docker-compose scale hello=10 world=6`
+
+## Conclusion
+Container pilot is an awsome patten to address operation concerns like rolling restart, shutdown etc as infrastructure as code, handling by the applicatio, inplace of god father orchestrator somewhere
