@@ -7,10 +7,10 @@ This project will explore how to build [12 factor app](https://12factor.net) usi
 Autopilot pattern moves all the orchestration responsibilities to the application itself rather than relying on an external orchestrator. **So what is orachestration? Orchestration** is the automation of the operations of an application. Most application require operational tasks like connecting them to related components (joyent-helloworld), and some applications require special attention as they start up or shut down to be sure they bootstrap correctly or persist their data.
 
 **So what is ContainerPilot? ContainerPilot** is added to application’s service. It communicates with the application’s service on one hand and with Consul on the other hand. It takes following key responsibilities:
-1. the service registration/discovery within Consul
-2. defining how the health check of the service needs to be done
-3. defining the dependencies of the current service
-4. the management of the service workflow by calling configuration script for preStart / onChange / postStop actions
+1. __the service registration/discovery within Consul__
+2. __defining how the health check of the service needs to be done__
+3. __defining the dependencies of the current service__
+4. __the management of the service workflow by calling configuration script for preStart / onChange / postStop actions__
 
 Following picture picotorially depicts Container Pilot pattern:
 
@@ -25,11 +25,11 @@ Before going in the direction of Joyent containerization, let refresh the differ
 
 Joyent containers can be categorized into following:
 
-**Option 1.** Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.
+**Option 1.** __Infrastructure containers running container-native Linux and SmartOS that work like a typical Unix host.__
 
-**Option 2.** Docker containers running Docker images.
+**Option 2.** __Docker containers running Docker images.__
 
-**Option 3.** Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages, but they offer compatibility for workloads that can't be fully containerized.
+**Option 3.** __Containers hosting hardware virtual machines running Windows, FreeBSD, or others. These don't offer the same performance advantages, but they offer compatibility for workloads that can't be fully containerized.__
 
 For more details & comparision container hosted on different cloud provider refer to [blog](https://www.joyent.com/blog/understanding-triton-containers)
 
