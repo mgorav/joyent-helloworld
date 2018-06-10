@@ -2,10 +2,10 @@
 
 ## Overview
 
-Autopilot pattern moves all the orchestration responsibilities to the application itself rather than relying on an external orchestrator. So what is orachestration? Orchestration is the automation of the operations of an application. Most application require operational tasks like connecting them to related components (joyent-helloworld), and some applications require special attention as they start up or shut down to be sure they bootstrap correctly or persist their data.
+Autopilot pattern moves all the orchestration responsibilities to the application itself rather than relying on an external orchestrator. **So what is orachestration? Orchestration** is the automation of the operations of an application. Most application require operational tasks like connecting them to related components (joyent-helloworld), and some applications require special attention as they start up or shut down to be sure they bootstrap correctly or persist their data.
 
-So what is ContainerPilot? **ContainerPilot** will be added to each of the application’s service. It communicates with the application’s service on one side and with Consul on the other side. It takes following responsibilities:
-1. the service registration within Consul
+**So what is ContainerPilot? ContainerPilot** is added to application’s service. It communicates with the application’s service on one hand and with Consul on the other hand. It takes following key responsibilities:
+1. the service registration/discovery within Consul
 2. defining how the health check of the service needs to be done
 3. defining the dependencies of the current service
 4. the management of the service workflow by calling configuration script for preStart / onChange / postStop actions
