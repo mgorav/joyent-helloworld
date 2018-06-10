@@ -1,4 +1,4 @@
-# Node.JS Hello World using the Joyent's Autopilot Pattern
+# Joyent's ContainerPilot Pattern Example Using Node.JS service
 
 1. `git clone git@github.com:joyent-helloworld.git`
 2. `cd hello-world`
