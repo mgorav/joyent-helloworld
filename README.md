@@ -1,4 +1,4 @@
-# Joyent's ContainerPilot Pattern Example Using Node.JS service
+# Joyent's ContainerPilot Pattern Example Using Node.JS Services
 
 ## Overview
 
